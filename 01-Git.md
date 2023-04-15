@@ -32,3 +32,14 @@ https://github.com/ChoKyoku/Doc.git 就是远程仓库的地址
 
 ![](Images/01-Git/Git-003.jpg)
 
+##### 1.3.2 创建分支
+
+在git中，使用 **git branch 分支名** 的方式来创建新的分支。
+
+![](Images\01-Git\Git-004.jpg)
+
+##### 1.3.3 切换分支
+
+使用**git checkout 分支名** 的方式来切换到想要的分支。切换好新的分支之后，所有的内容也全部都更换成新的分支的内容了。
+
+![](Images\01-Git\Git-005.jpg)
