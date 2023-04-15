@@ -78,3 +78,39 @@ https://github.com/ChoKyoku/Doc.git 就是远程仓库的地址
 **作用:将oBranch的内容合并到当前分支中来**
 
 ![](Images\01-Git\Git-006.jpg)
+
+### 3.常用操作
+
+#### 3.1 git clone
+
+用于将远程仓库的内容克隆到本地
+
+**语法: git clone [url]**
+
+#### 3.2 git add
+
+可将文件添加到暂存区(一个或多个文件)
+
+**语法:git add [file1] [file2] ...**
+
+**git add -A** : 用于将当前目录下的所有文件都添加到暂存区
+
+#### 3.3 git commit
+
+将暂存区中的内容添加到本地仓库中
+
+语法: git commit -m [message]
+
+   message : 可以是一些备注信息
+
+git commit -a : 执行该指令时，修改文件后不需要执行git add命令，直接来提交
+
+#### 3.4 git push
+
+用于将本地仓库中的内容推送到远程仓库中
+
+语法: git push <远程仓库地址> <本地分支>
+
+#### 3.5 git checkout
+
+#### 3.6 git pull
