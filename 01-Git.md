@@ -118,3 +118,19 @@ git commit -a : 执行该指令时，修改文件后不需要执行git add命令
 #### 3.5 git checkout
 
 #### 3.6 git pull
+
+​	用于从过程获取代码并合并到本地版本中
+
+​	git pull 实际是git fetch 和 git merge FETCH_HEAD的缩写
+
+​	语法: git pull <过程主机名> <远程分支名> ：<本地分支名>
+
+​	git pull
+
+​	git pull origin
+
+​    git pull origin master : cho.kyoku 
+
+​	如果远程分支和当前分支合并的话，则冒号后面的内容就可以省略
+
+​		git pull origin cho.kyoku
