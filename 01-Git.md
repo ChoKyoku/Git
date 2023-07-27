@@ -115,6 +115,8 @@ git commit -a : 执行该指令时，修改文件后不需要执行git add命令
 
 ​          git push origin cho.kyoku
 
+![](Images\01-Git\Git-007.jpg)
+
 #### 3.5 git checkout
 
 #### 3.6 git pull
