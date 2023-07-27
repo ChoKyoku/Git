@@ -111,6 +111,8 @@ git commit -a : 执行该指令时，修改文件后不需要执行git add命令
 
 语法: git push <远程仓库地址> <本地分支>
 
+​          git push origin cho.kyoku
+
 #### 3.5 git checkout
 
 #### 3.6 git pull
