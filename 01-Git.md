@@ -136,3 +136,61 @@ git commit -a : 执行该指令时，修改文件后不需要执行git add命令
 ​	如果远程分支和当前分支合并的话，则冒号后面的内容就可以省略
 
 ​		git pull origin cho.kyoku
+
+#### 3.7 git restore
+
+git store 命令主要用于恢复文件到
+
+**1.恢复已修改但未暂存（未git add）的文件**
+
+如果修改了文件，但还没有使用 git add ，则可以使用下面指令恢复到上次提交的版本
+
+```bash
+git restore <文件名>
+```
+
+或恢复所有为未暂存的修改
+
+```bash
+git restore .
+```
+
+**2.恢复已暂存（git add）但未提交的文件**
+
+```bash
+git restore --staged <FileName>
+```
+
+如果同时还想恢复到工作区的上次提交状态
+
+```bash
+git restore --staged <文件名>
+git restore <文件名>
+```
+
+**3.恢复已提交的内容**
+
+3.1 恢复到上次提交的状态
+
+如果你已经提交了更改，但想回到上一次提交的状态，可以使用以下命令：
+
+```bash
+git reset --hard HEAD~1
+```
+
+3.2 恢复单个文件到某次提交
+
+可以恢复某个文件到指定的提交版本
+
+```bash
+git checkout <提交哈希值> -- <文件名>
+
+```
+
+在新的版本中，可以使用以下版本代替
+
+```bash
+git restore --source=<提交哈希值> <文件名>
+
+```
+
