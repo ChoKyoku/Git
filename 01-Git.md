@@ -194,3 +194,10 @@ git restore --source=<提交哈希值> <文件名>
 
 ```
 
+
+
+ssh-keygen -t ed25519 -C "zhaoxu8673@gmail.com"
+
+git remote set-url origin git@github.com:ChoKyoku/SuperSnifer.git
+
+git remote set-url origin git@github.com:ChoKyoku/Git.git
